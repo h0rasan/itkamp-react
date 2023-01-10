@@ -40,3 +40,4 @@
 // cd - change directory
 // ls - izlistavanje sadrzaja foldera
 // mkdir - make directory
+// DOM - document object model
