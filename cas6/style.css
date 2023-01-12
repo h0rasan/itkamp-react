@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+#canvas {
+  width: 45vw;
+  height: 600px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#ctrl {
+  width: 250px;
+  height: 400px;
+  display: inline-block;
+}
+
+#add-text {
+  display: block;
+}
