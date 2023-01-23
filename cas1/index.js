@@ -41,3 +41,13 @@
 // ls - izlistavanje sadrzaja foldera
 // mkdir - make directory
 // DOM - document object model
+// 
+
+// in reaact.js a component is a piece of code that represents a part of a interface. it can be a class component or a functional component. class components is a js class that extends react.component class, while a functional component is a function that returns only the react element. 
+
+// A pure component is a special type of component that is similar to a component, but with additional features or optimisation. when a component is a PureComponent, react will do a shallow comparison of the props and state before re-rendering the component. that means that if props and state have not changed,the component will not be re-rendered. this can lead to a performance boost in some cases, but if it's not used properly. 
+
+// Bottomline a component is the most basic and most used for building a block in react and PureComponent is used when it needs some special optimisation
+
+// props(properties) is a way for manipulating data and states. We can send data through props and we can send data to parent through props. 
+
