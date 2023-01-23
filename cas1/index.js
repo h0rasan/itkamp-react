@@ -51,3 +51,5 @@
 
 // props(properties) is a way for manipulating data and states. We can send data through props and we can send data to parent through props. 
 
+// parent component is component which is created. Child component is component which is included in parent component
+// parent component can have more than one Child component. Child component can be also found in other componennts as children(prop)
