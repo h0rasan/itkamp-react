@@ -1,7 +1,7 @@
-.styledButton{
-    width: 200px;
-    height: 50px;
-    color: white;
-    background-color: black;
-    border-radius: 10px;
+.StyledButton {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
 }

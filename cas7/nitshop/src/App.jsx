@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
-import CustomForm from './components/CustomForm/CustomForm';
-import CustomDiv from './components/CustumDiv/CustumDiv';
+import React, { useState } from "react";
+import "./App.css";
+import CustomForm from "./components/CustomForm/CustomForm";
+import CustomDiv from "./components/CustomDiv/CustomDiv";
 
 const App = () => {
-  const [fullName, setFullName] = React.useState('');
+  const [fullName, setFullName] = useState("");
 
   function dataGrabber(name, lastName) {
-    let fullName = name + ' ' + lastName;
+    let fullName = name + " " + lastName;
+    console.log(fullName);
     setFullName(fullName);
   }
 
@@ -15,7 +16,7 @@ const App = () => {
     <div className='App'>
       <header className='App-header'>
         <CustomDiv>
-          <h1>{fullName}</h1>
+          <h4>{fullName}</h4>
         </CustomDiv>
         <CustomForm sendData={(name, lName) => dataGrabber(name, lName)} />
       </header>
