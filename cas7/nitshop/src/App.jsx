@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import CustomDiv from './components/CustomDiv/CustomDiv';
-import ToDoList from './components/ToDoList/ToDoList';
+import PrimaryButton from './components/PrimaryButton/PrimaryButton';
+import StyledDiv from './components/StyledDiv/StyledDiv';
+//import ToDo from './components/ToDo/ToDo';
+//import GridCmp from './components/Grid/Grid';
 
 const App = () => {
   return (
     <>
-      <CustomDiv />
-      <ToDoList />
+      <PrimaryButton padding={10} borderColor='yellow'>
+        Primary Button
+      </PrimaryButton>
+      <StyledDiv>Some sample text here</StyledDiv>
     </>
   );
 };
